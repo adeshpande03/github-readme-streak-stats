@@ -1848,4 +1848,17 @@ return [
         "dates" => "#327698",
         "excludeDaysLabel" => "#84A0C6",
     ],
+    "adeshpande03" => [
+        "background" => "#282828",
+        "border" => "#33374C",
+        "stroke" => "#33374C",
+        "ring" => "#ffa115",
+        "fire" => "#ffa115",
+        "currStreakNum" => "#fff",
+        "sideNums" => "#327698",
+        "currStreakLabel" => "#D2D4DE",
+        "sideLabels" => "#fff",
+        "dates" => "#327698",
+        "excludeDaysLabel" => "#84A0C6",
+    ],
 ];
