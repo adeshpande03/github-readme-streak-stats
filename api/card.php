@@ -442,8 +442,6 @@ function generateCard(array $stats, array $params = null): string
     return "<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'
                 style='isolation: isolate' viewBox='0 0 {$cardWidth} 195' width='{$cardWidth}px' height='195px' direction='{$direction}'>
         <style>
-                @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&display=swap');
-                text { font-family: 'Rajdhani', sans-serif; }
             @keyframes currstreak {
                 0% { font-size: 3px; opacity: 0.2; }
                 80% { font-size: 34px; opacity: 1; }
@@ -475,21 +473,21 @@ function generateCard(array $stats, array $params = null): string
             <g style='isolation: isolate'>
                 <!-- Total Contributions big number -->
                 <g transform='translate({$totalContributionsOffset},48)'>
-                    <text x='0' y='32' stroke-width='0' text-anchor='middle' fill='{$theme["sideNums"]}' stroke='none' font-family='Rajdhani, sans-serif' font-weight='700' font-size='28px' font-style='normal' style='opacity: 0; animation: fadein 0.5s linear forwards 0.6s'>
+                    <text x='0' y='32' stroke-width='0' text-anchor='middle' fill='{$theme["sideNums"]}' stroke='none' font-family='\"Segoe UI\", Ubuntu, sans-serif' font-weight='700' font-size='28px' font-style='normal' style='opacity: 0; animation: fadein 0.5s linear forwards 0.6s'>
                         {$totalContributions}
                     </text>
                 </g>
 
                 <!-- Total Contributions label -->
                 <g transform='translate({$totalContributionsOffset},84)'>
-                    <text x='0' y='32' stroke-width='0' text-anchor='middle' fill='{$theme["sideLabels"]}' stroke='none' font-family='Rajdhani, sans-serif' font-weight='400' font-size='14px' font-style='normal' style='opacity: 0; animation: fadein 0.5s linear forwards 0.7s'>
+                    <text x='0' y='32' stroke-width='0' text-anchor='middle' fill='{$theme["sideLabels"]}' stroke='none' font-family='\"Segoe UI\", Ubuntu, sans-serif' font-weight='400' font-size='14px' font-style='normal' style='opacity: 0; animation: fadein 0.5s linear forwards 0.7s'>
                         {$totalContributionsText}
                     </text>
                 </g>
 
                 <!-- Total Contributions range -->
                 <g transform='translate({$totalContributionsOffset},114)'>
-                    <text x='0' y='32' stroke-width='0' text-anchor='middle' fill='{$theme["dates"]}' stroke='none' font-family='Rajdhani, sans-serif' font-weight='400' font-size='12px' font-style='normal' style='opacity: 0; animation: fadein 0.5s linear forwards 0.8s'>
+                    <text x='0' y='32' stroke-width='0' text-anchor='middle' fill='{$theme["dates"]}' stroke='none' font-family='\"Segoe UI\", Ubuntu, sans-serif' font-weight='400' font-size='12px' font-style='normal' style='opacity: 0; animation: fadein 0.5s linear forwards 0.8s'>
                         {$totalContributionsRange}
                     </text>
                 </g>
@@ -497,21 +495,21 @@ function generateCard(array $stats, array $params = null): string
             <g style='isolation: isolate'>
                 <!-- Current Streak big number -->
                 <g transform='translate({$currentStreakOffset},48)'>
-                    <text x='0' y='32' stroke-width='0' text-anchor='middle' fill='{$theme["currStreakNum"]}' stroke='none' font-family='Rajdhani, sans-serif' font-weight='700' font-size='28px' font-style='normal' style='animation: currstreak 0.6s linear forwards'>
+                    <text x='0' y='32' stroke-width='0' text-anchor='middle' fill='{$theme["currStreakNum"]}' stroke='none' font-family='\"Segoe UI\", Ubuntu, sans-serif' font-weight='700' font-size='28px' font-style='normal' style='animation: currstreak 0.6s linear forwards'>
                         {$currentStreak}
                     </text>
                 </g>
 
                 <!-- Current Streak label -->
                 <g transform='translate({$currentStreakOffset},108)'>
-                    <text x='0' y='32' stroke-width='0' text-anchor='middle' fill='{$theme["currStreakLabel"]}' stroke='none' font-family='Rajdhani, sans-serif' font-weight='700' font-size='14px' font-style='normal' style='opacity: 0; animation: fadein 0.5s linear forwards 0.9s'>
+                    <text x='0' y='32' stroke-width='0' text-anchor='middle' fill='{$theme["currStreakLabel"]}' stroke='none' font-family='\"Segoe UI\", Ubuntu, sans-serif' font-weight='700' font-size='14px' font-style='normal' style='opacity: 0; animation: fadein 0.5s linear forwards 0.9s'>
                         {$currentStreakText}
                     </text>
                 </g>
 
                 <!-- Current Streak range -->
                 <g transform='translate({$currentStreakOffset},145)'>
-                    <text x='0' y='21' stroke-width='0' text-anchor='middle' fill='{$theme["dates"]}' stroke='none' font-family='Rajdhani, sans-serif' font-weight='400' font-size='12px' font-style='normal' style='opacity: 0; animation: fadein 0.5s linear forwards 0.9s'>
+                    <text x='0' y='21' stroke-width='0' text-anchor='middle' fill='{$theme["dates"]}' stroke='none' font-family='\"Segoe UI\", Ubuntu, sans-serif' font-weight='400' font-size='12px' font-style='normal' style='opacity: 0; animation: fadein 0.5s linear forwards 0.9s'>
                         {$currentStreakRange}
                     </text>
                 </g>
@@ -530,21 +528,21 @@ function generateCard(array $stats, array $params = null): string
             <g style='isolation: isolate'>
                 <!-- Longest Streak big number -->
                 <g transform='translate({$longestStreakOffset},48)'>
-                    <text x='0' y='32' stroke-width='0' text-anchor='middle' fill='{$theme["sideNums"]}' stroke='none' font-family='Rajdhani, sans-serif' font-weight='700' font-size='28px' font-style='normal' style='opacity: 0; animation: fadein 0.5s linear forwards 1.2s'>
+                    <text x='0' y='32' stroke-width='0' text-anchor='middle' fill='{$theme["sideNums"]}' stroke='none' font-family='\"Segoe UI\", Ubuntu, sans-serif' font-weight='700' font-size='28px' font-style='normal' style='opacity: 0; animation: fadein 0.5s linear forwards 1.2s'>
                         {$longestStreak}
                     </text>
                 </g>
 
                 <!-- Longest Streak label -->
                 <g transform='translate({$longestStreakOffset},84)'>
-                    <text x='0' y='32' stroke-width='0' text-anchor='middle' fill='{$theme["sideLabels"]}' stroke='none' font-family='Rajdhani, sans-serif' font-weight='400' font-size='14px' font-style='normal' style='opacity: 0; animation: fadein 0.5s linear forwards 1.3s'>
+                    <text x='0' y='32' stroke-width='0' text-anchor='middle' fill='{$theme["sideLabels"]}' stroke='none' font-family='\"Segoe UI\", Ubuntu, sans-serif' font-weight='400' font-size='14px' font-style='normal' style='opacity: 0; animation: fadein 0.5s linear forwards 1.3s'>
                         {$longestStreakText}
                     </text>
                 </g>
 
                 <!-- Longest Streak range -->
                 <g transform='translate({$longestStreakOffset},114)'>
-                    <text x='0' y='32' stroke-width='0' text-anchor='middle' fill='{$theme["dates"]}' stroke='none' font-family='Rajdhani, sans-serif' font-weight='400' font-size='12px' font-style='normal' style='opacity: 0; animation: fadein 0.5s linear forwards 1.4s'>
+                    <text x='0' y='32' stroke-width='0' text-anchor='middle' fill='{$theme["dates"]}' stroke='none' font-family='\"Segoe UI\", Ubuntu, sans-serif' font-weight='400' font-size='12px' font-style='normal' style='opacity: 0; animation: fadein 0.5s linear forwards 1.4s'>
                         {$longestStreakRange}
                     </text>
                 </g>
@@ -596,7 +594,7 @@ function generateErrorCard(string $message, array $params = null): string
             <g style='isolation: isolate'>
                 <!-- Error lable -->
                 <g transform='translate({$centerOffset},108)'>
-                    <text x='0' y='50' dy='0.25em' stroke-width='0' text-anchor='middle' fill='{$theme["sideLabels"]}' stroke='none' font-family='Rajdhani, sans-serif' font-weight='400' font-size='14px' font-style='normal'>
+                    <text x='0' y='50' dy='0.25em' stroke-width='0' text-anchor='middle' fill='{$theme["sideLabels"]}' stroke='none' font-family='\"Segoe UI\", Ubuntu, sans-serif' font-weight='400' font-size='14px' font-style='normal'>
                         {$message}
                     </text>
                 </g>
