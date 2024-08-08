@@ -44,7 +44,7 @@ html {
 
 body {
   background: var(--background);
-  font-family: Segoe UI, Ubuntu, sans-serif;
+  font-family: "Rajdhani", sans-serif;
   padding-top: 10px;
   color: var(--text);
 }

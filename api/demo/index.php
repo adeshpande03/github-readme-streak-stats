@@ -60,8 +60,8 @@ function fileModifiedTime(string $filename): int
     <link href="https://css.gg/css?=|moon|sun" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css?v=<?= fileModifiedTime("./css/style.css") ?>">
     <link rel="stylesheet" href="./css/toggle-dark.css?v=<?= fileModifiedTime("./css/toggle-dark.css") ?>">
-
-    <!-- Favicons -->
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+    Favicons
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
